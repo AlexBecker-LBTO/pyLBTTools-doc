@@ -1,0 +1,12 @@
+.. py:function::  txtfix (infile, srchfor, replwith)
+
+txtfix
+======
+.. code-block:: python
+
+ ##############################################################################
+ # txtfix will fix a textfile by replacing a searchable string or N lines     #
+ # offset from this.  This is to allow fixing an unspecified OBSERVER in      #
+ # SDT time OBs.                                                              #
+ ##############################################################################
+

@@ -1,0 +1,19 @@
+.. py:function::  pcollim (images,outfil1)
+
+pcollim
+=======
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  pcollim.cl --  Prepare input data for the IDL mkcollim_lbc.pro script.    #
+ #                                                                            #
+ #  The procedure pcollim (stands for prepare for mkcollim) reads in a list   #
+ #  of images and outputs a file with columns in the format required by the   #
+ #  IDL routine mkcollim_lbc.pro.                                             #
+ #                                                                            # 
+ #  Olga Kuhn - LBT Observatory                             IRAF version 2.14 #
+ #                                                         written: 27.APR.08 #
+ #                                               last modification: 27.APR.08 #
+ ##############################################################################
+

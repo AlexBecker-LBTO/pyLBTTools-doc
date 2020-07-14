@@ -1,0 +1,23 @@
+.. py:function::  clipmean (infile)
+
+clipmean
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/clipmean.cl                                                      #
+ #                                                                            #
+ #  LBTtools script to extract a sigma-clipped mean from a single-column      #
+ #  list of real values.  This task is intended to be called by other tasks   #
+ #  that scan the results for further use.  Developed to clip the histogram   #
+ #  distribution of seeing FWHM data from SExtractor (see LBC$seeing1.cl).    #
+ #                                                                            #
+ #  USE: clipmean <infile> | scan (mean, sigma, Nfit, Nin)                    #
+ #  ERROR: a returned datamean = -7777. indicates an error.                   #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.13  #
+ #                                Adapted from IRtools/meansky.cl: 18.FEB.08  #
+ #                                              last modification: 18.FEB.08  #
+ ##############################################################################
+

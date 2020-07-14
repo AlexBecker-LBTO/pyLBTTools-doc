@@ -1,0 +1,44 @@
+.. py:function::  newpoint (SourceName)
+
+newpoint
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/Observe/newpoint.cl                                              #
+ #                                                                            #
+ #  Reads source and guide star information from the new catalog format as    #
+ #  defined by DLMiller, then sets up and sends the IRC/IIF command to preset #
+ #  the Telescope.  Returns (i.e. error checking and such) should now be      #
+ #  properly handled.  Newpoint has been extended to support ADAPTIVE mode    #
+ #  presets as well as send explicit offsets and hotspots with the preset.    #
+ #                                                                            #
+ #  SourceName: A file with the name <SourceName>.catalog must exist          #
+ #    somewhere in the defined catalog path (see LBTtools.CatDir).  The first #
+ #    source (ID=0) in the catalog is always used as the on-axis science      #
+ #    target, other sources in the catalog are used for off-axis guide stars  #
+ #    and referred to by their catalog number.  The same convention applies   #
+ #    to the AO reference star also in the same catalog.                      #
+ #                                                                            #
+ #  PA: Detector position angle.  The default is set to INDEF.  If you        #
+ #    request a guide star, the task will calculate the PA to place it at     #
+ #    AGw X=0 (Yaxis).  If you also specify a PA, it will override the        #
+ #    calculated PA.                                                          #
+ #                                                                            #
+ #  TelMode (Telescope tracking mode) valid options (needs min 5 char):       #
+ #      STATIC, TRACK, ACQUIRE, GUIDE, ACTIVE, ADAPTIVE, INTERFEROMETRIC      #
+ #                                                                            #
+ ### User-specified source and guide star catalogs ############################
+ #                                                                            #
+ #  To properly use a user-specified source catalog, it *must* be set up with #
+ #  the same overall structure as the LBT default catalogs (DMiller format).  #
+ #  See those for examples, examples can be found in LBTtools$/catalogs/.     #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 14.OCT.10  #
+ #                                              last modification: 30.APR.14  #
+ ##############################################################################
+ # JMH - added "ClearNonSidereal" 30-Apr-2014
+ # DJT - corrected AO/TTM syntax, stop sending the RunAO command 15-Dec-2014
+

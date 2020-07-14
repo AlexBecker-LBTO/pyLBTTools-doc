@@ -1,0 +1,24 @@
+.. py:function::  zerobase (coord)
+
+zerobase
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/Observe/zerobase.cl                                              #
+ #                                                                            #
+ #  Sends an updatePointingReference command for the specified coordinate     #
+ #  system.  This will "absorb" any accumulated offsets in that coordinate    #
+ #  system into the currently defined base position for that coordinate       #
+ #  system.  Thus, absorbing RADEC offsets will have no effect on DETXY       #
+ #  offsets and vice versa.  The telescope side affected is now read from the #
+ #  LBTtools.Telside parameter.                                               #
+ #                                                                            #
+ #  coord:   Offset type (RADEC or DETXY for now).                            #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 08.FEB.09  #
+ #                                              last modification: 14.OCT.10  #
+ ##############################################################################
+

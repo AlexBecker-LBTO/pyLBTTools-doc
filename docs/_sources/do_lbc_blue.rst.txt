@@ -1,0 +1,18 @@
+.. py:function::  do_lbc_blue(trimnover)
+
+do_lbc_blue
+===========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ # do_lbc_blue.cl                                                             #
+ #                                                                            #
+ # Adapted from D.Sand script.  Does basic reduction = flatfielding, bias     #
+ # subtraction, trim overscan, on LBC Blue images.                            #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.13  #
+ #                                                        written: 27.SEP.07  #
+ #                                              last modification: 27.DEC.07  #
+ ##############################################################################
+

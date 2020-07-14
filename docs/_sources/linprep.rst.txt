@@ -1,0 +1,27 @@
+.. py:function::  linprep (infiles)
+
+linprep
+=======
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  linprep.cl                                                                #
+ #                                                                            #
+ #  Script to prepare the Tcorr,Dcorr images from a set of linearity data.    #
+ #  The script loops through an input list of images (files are in the        #
+ #  LBTtools.archive directory) and creates 3D images called LinX.XX(D/M)     #
+ #  with X.XX=ITIME, D/M is a DCR/MER indicator and the files are 2048x2048x2 #
+ #  for LUCI.  Files are saved to TMPdata (a link to a ramdisk if you like).  #
+ #  This is a necessary first step in both deriving the An coefficient        #
+ #  matricies.  Generalized (from P60IRCam script) for LUCIFER May 2011.      #
+ #                                                                            #
+ #  linprep   - creates LinX.XX(D/M) files from input data list               #
+ #  lincoeff  - Fits polys, generated the A0, A1, A2 data                     #
+ #  linearize - Matrix linearization to all data in archive, save to RAWdata  #
+ #                                                                            #
+ #  David Thompson - LBTO, UofA                           IRAF version 2.14.1 #
+ #                                      orig.written (p60mklinear): 23.JAN.01 #
+ #                                               last modification: 07.APR.11 #
+ ##############################################################################
+

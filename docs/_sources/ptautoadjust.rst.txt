@@ -1,0 +1,24 @@
+.. py:function::  ptautoadjust (timestamp)
+
+ptautoadjust
+============
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBC/ptautoadjust.cl                                                       #
+ #                                                                            #
+ #  LBTtools/LBC script to measure the pointing correction to parameters CA   #
+ #  and IE by using a single pointing star.                                   #
+ #  As Input we give the current CA and IE pointing model parameters          #
+ #  Output parameters are the new CA and IE to be passed to the PCS           #
+ #  via Ptmodify                                                              #
+ #                                                                            #
+ #  Marco Pedani - LBT Observatory                                            #
+ #                                                                 IRAF v2.14 #
+ #                                               last modification: 05.Sep.08 #
+ # last modification: 18.Feb.10 by Olga Kuhn                                  #
+ #  * reads rotator center from header                                        #
+ #  * reads IE/CA from pointing model and sends corrected IE/CA to TCS        #
+ ##############################################################################
+

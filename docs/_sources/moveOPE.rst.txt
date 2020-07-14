@@ -1,0 +1,35 @@
+.. py:function::  moveOPE (OPE)
+
+moveOPE
+=======
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/Observe/moveOPE.cl                                               #
+ #                                                                            #
+ #  Moves the specified OPE in X,Y,Z,RX,RY, and RZ.  This "move" command      #
+ #  includes the functionality of MoveXY, MoveXYZ, TipTilt, StepFocus, and    #
+ #  MoveFocus (all are subsets of move).                                      #
+ #                                                                            #
+ #  This task is in active development, expect changes and bugs!              #
+ #                                                                            #
+ #  X,Y, and Z are specified in millimeters.                                  #
+ #  RX, RY, RZ are currently specified in degrees, may change to arcsec.      #
+ #                                                                            #
+ #  Dflag - This move parameter is not visible to the user.  It is a flag     #
+ #  indicating which of the requested directions is to be applied.  Normally  #
+ #  this would be set to 63 (apply all six values even if they are zero.  But #
+ #  there is a special meaning to 0 0 0 0 0 0 ABS, that moves the specified   #
+ #  OPE to its 'magic' position.  So to make this more clear at 3:00am, if    #
+ #  ABS+ the Dflag is built from the non-zero XYZRXRYRZ values.  The Dflag is #
+ #  set to 63 for an absolute move only if the set2magic flag is also set.    #
+ #  This should cover all normal options/uses of the move command.            #
+ #                                                                            #
+ #  It would probably be good practice to unlearn this command before use!    #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 14.OCT.10  #
+ #                                              last modification: 14.OCT.10  #
+ ##############################################################################
+

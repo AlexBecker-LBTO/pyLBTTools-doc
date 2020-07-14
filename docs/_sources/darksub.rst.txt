@@ -1,0 +1,24 @@
+.. py:function::  darksub ()
+
+darksub
+=======
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LUCIFER/darksub.cl                                                        #
+ #                                                                            #
+ #  Makes a list of non-"dark" images in the archive (LBTtools PSET) and      #
+ #  loops through, subtracting the appropriate (autoscaled if necessary) dark #
+ #  frame from raw imaging data and saving it to the TMPdata directory (same  #
+ #  naming as the raw data, just the location is different).                  #
+ #                                                                            #
+ #  Scaling is obtained from the header keywords for coadds and exptime.      #
+ #  Output images are placed in the TMPdata directory, but are otherwise      #
+ #  named the same as the raw data.                                           #
+ #                                                                            #
+ #  David Thompson - LBTO - UofA                            IRAF version 2.13 #
+ #                                                         written: 09.OCT.07 #
+ #  Adapted from IRtools/darksub.cl              last modification: 26.OCT.07 #
+ ##############################################################################
+

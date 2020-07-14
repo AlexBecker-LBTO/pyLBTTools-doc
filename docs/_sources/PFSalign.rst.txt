@@ -1,0 +1,23 @@
+.. py:function::  PFSalign (dXi, dYi, dXp, dYp)
+
+PFSalign
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LUCItools/PFSalign.cl                                                     #
+ #                                                                            #
+ #  LUCItools script to aid in alignment of the pupil (P) and field stop (FS) #
+ #  for both LUCIs. There is an on-screen guide to help you take the data.    #
+ #  The coeffs output is to update the LUCI software whenever the motors are  #
+ #  recalibrated and the 4x4 matrix coefficients are updated.  The invert     #
+ #  output was mostly useful during script development and probably not       #
+ #  useful anymore.  There are some additional notes at the end that were     #
+ #  helpful in figuring this all out.                                         #
+ #                                                                            #
+ #  David Thompson - LBTO, Univ. of Arizona                IRAF v2.16 export  #
+ #                                                        written: 29.MAR.17  #
+ #                                              last modification: 30.MAR.17  #
+ ##############################################################################
+

@@ -1,0 +1,23 @@
+.. py:function::  register (instrument)
+
+register
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/Observe/register.cl                                              #
+ #                                                                            #
+ #  Sends a register command as the identified instrument in the LBTtools     #
+ #  package parameter set.  Provision is made there to allow IRTC to occupy   #
+ #  specific focal stations.  All other instruments are fixed where they are  #
+ #  mounted by default.                                                       #
+ #                                                                            #
+ #  The side (left/right/both) is currently read from the OBSERVE package     #
+ #  parameter set (may be moved to LBTtools).                                 #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 13.OCT.10  #
+ #                                    *SteveA*  last modification: 17.NOV.13  #
+ ##############################################################################
+

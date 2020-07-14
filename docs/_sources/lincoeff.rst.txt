@@ -1,0 +1,19 @@
+.. py:function::  lincoeff ()
+
+lincoeff
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  lincoeffs.cl                                                              #
+ #                                                                            #
+ #  Script to looping through the image stacks made by linprep and derive the #
+ #  A0, A1, and A2 matricies (plus S0, S1, S2, chi2, corcoef, and fit rms).   #
+ #  The TDnnnn(D/M) files must already exist in TMPdata for this to work.     #
+ #                                                                            #
+ #  David Thompson - LBTO, UofA                           IRAF version 2.14.1 #
+ #                                           written (p60mklinear): 23.JAN.01 #
+ #                                               last modification: 08.APR.11 #
+ ##############################################################################
+

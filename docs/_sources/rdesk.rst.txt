@@ -1,0 +1,18 @@
+.. py:function::  rdesk ()
+
+rdesk
+=====
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/Observe/rdesk.cl                                                 #
+ #                                                                            #
+ #  Launches the remote desktop connection to the IRTC computer where you run #
+ #  the camera GUI.                                                           #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 15.DEC.10  #
+ #                                              last modification: 15.DEC.10  #
+ ##############################################################################
+

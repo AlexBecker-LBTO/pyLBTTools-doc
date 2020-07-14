@@ -1,0 +1,27 @@
+.. py:function::  tpmatch (inlis, ptlogfile)
+
+tpmatch
+=======
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/LUCIFER/tpmatch.cl                                               #
+ #                                                                            #
+ #  LBTtools/LUCIFER script to update WCS with position of pointing model     #
+ #  star and then extracting the RA and DEC of the rotator center.  These     #
+ #  coords are matched to entries in the pointing log file, reformatting the  #
+ #  latter for processing with the 'ptconv' program.  Optionally will spawn   #
+ #  tpoint, but that can be done outside of this task as well.  Updated to    #
+ #  read the EXPTIME from the header and select matches close to the midpoint #
+ #  of each exposure.  Sdiff = 1.30s gets close to exactly one match per      #
+ #  image for the 2.5s cadence of the pointing logging in PCS.                #
+ #                                                                            #
+ #  inlis should contain the image name and the target name.                  #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                                          #
+ #                                                                 IRAF v2.14 #
+ #                                                         written: 18.SEP.06 #
+ #                                               last modification: 24.SEP.09 #
+ ##############################################################################
+

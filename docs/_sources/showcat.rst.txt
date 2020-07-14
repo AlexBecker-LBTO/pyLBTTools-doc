@@ -1,0 +1,22 @@
+.. py:function::  showcat (SourceName)
+
+showcat
+=======
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/Observe/showcat.cl                                               #
+ #                                                                            #
+ #  Finds the new-format catalog for the specified source and prints all of   #
+ #  the included sources (not the header info) to the screen for reference.   #
+ #                                                                            #
+ #  This task is in active development, expect changes and bugs!              #
+ #                                                                            #
+ ### User-specified source and guide star catalogs ############################
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 02.OCT.10  #
+ #                                              last modification: 09.NOV.10  #
+ ##############################################################################
+

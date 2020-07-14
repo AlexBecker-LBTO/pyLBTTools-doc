@@ -1,0 +1,23 @@
+.. py:function::  rbPrime (M1X,M1Y,M1Z,M1RX,M1RY)
+
+rbPrime
+=======
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/rbPrime.cl                                                       #
+ #                                                                            #
+ #  Implements ARakich's Prime-focus range balancing algorithm as a callable  #
+ #  subroutine.  Input is the current position for M1 (should be obtained by  #
+ #  the calling script from getM1pos) and outputs the range-balanced M1       #
+ #  position for X,Y,RX,RY that can be scanned by the calling task.  Moved to #
+ #  LBTtools, made to match rbGreg in style, and hidden 08 Mar 2011.  Adapted #
+ #  from OKuhn's lbcrangebal code to just do the monocular range-balancing.   #
+ #                                                                            #
+ #  Olga Kuhn - modified rangebal for LBC       last modification: 28.OCT.10  #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 08.MAR.11  #
+ #                                              last modification: 08.MAR.11  #
+ ##############################################################################
+

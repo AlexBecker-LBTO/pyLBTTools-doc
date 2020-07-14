@@ -1,0 +1,17 @@
+.. py:function::  rangebal ()
+
+rangebal
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/Observe/rangebal.cl                                              #
+ #                                                                            #
+ #  Implement ARakich's range balancing algorithm for one (LUCIFER?) eye.     #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 14.SEP.10  #
+ #                                              last modification: 29.OCT.10  #
+ ##############################################################################
+
