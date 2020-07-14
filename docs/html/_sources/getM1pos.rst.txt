@@ -1,0 +1,25 @@
+.. py:function::  getM1pos (source, side)
+
+getM1pos
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/getM1pos.cl                                                      #
+ #                                                                            #
+ #  Returns the M1 position information to the calling script.  The "source"  #
+ #  input can be either an image name, "test" to use embedded test values, or #
+ #  "live" to pull the information back from the TCS.  A side must also be    #
+ #  provided in the call to specify if the information is to be from the left #
+ #  or right side telescopes.  This task is normally hidden and only called   #
+ #  from other LBTtools tasks.                                                #
+ #                                                                            #
+ #  Responsibility for sending the correct information rests with the calling #
+ #  script.  This script does no error checking!                              #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 23.FEB.11  #
+ #                                              last modification: 23.FEB.11  #
+ ##############################################################################
+

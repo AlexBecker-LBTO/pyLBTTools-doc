@@ -1,0 +1,24 @@
+.. py:function::  quickwcs (img_ts)
+
+quickwcs
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LUCIFER/quickwcs.cl                                                       #
+ #                                                                            #
+ #  LBTtools/LUCIFER script to add a default WCS into the headers of LUCIFER  #
+ #  images, assuming the RA, DEC, and PA are reasonably accurate, then        #
+ #  make a cubic fit (iraf order=4) to include distortions.  The task will    #
+ #  print out the orientation and cetral pixel scale.                         #
+ #                                                                            #
+ #  One an initial WCS is put into the headers, the USNO-B1 catalog is        #
+ #  queried for the image and the WCS is interactively updated.               #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                                          #
+ #                                                                 IRAF v2.14 #
+ #                                                         written: 01.DEC.08 #
+ #                                               last modification: 09.MAR.09 #
+ ##############################################################################
+

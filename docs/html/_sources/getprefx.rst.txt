@@ -1,0 +1,19 @@
+.. py:function::  getprefx (camera)
+
+getprefx
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/getprefx.cl                                                      #
+ #                                                                            #
+ #  Returns the appropriate image prefix given the ID of the camera.  This    #
+ #  task is normally hidden and only called from other LBTtools tasks.        #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.13  #
+ #                                                        written: 08.OCT.07  #
+ #                                              last modification: 15.NOV.10  #
+ #                                        last modification: 14.NOV.17 (OPK)  #
+ ##############################################################################
+

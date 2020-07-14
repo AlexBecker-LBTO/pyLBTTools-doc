@@ -1,0 +1,23 @@
+.. py:function::  fcheck (img1, Nfoc)
+
+focus
+=====
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  fcheck.cl --  Check focus in a series of images.                          #
+ #                                                                            #
+ #  fcheck monitors the tech archive, currently hard-coded to point to the    #
+ #  directory /home/telescope/Repository, for images taken in a focus series. #
+ #  When all images have been obtained, the task will call starfocus to       #
+ #  measure the FWHM in the focus series and determine a best focus value to  #
+ #  set in the mirror control GUI.                                            #
+ #                                                                            #
+ #  Adapted from O.Kuhn's foclist task.                                       #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                      IRAF version 2.12.2 #
+ #                                                         written: 22.SEP.05 #
+ #                                               last modification: 22.SEP.05 #
+ ##############################################################################
+

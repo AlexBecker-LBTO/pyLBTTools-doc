@@ -1,0 +1,22 @@
+.. py:function::  mklin (imglist)
+
+mklin
+=====
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  mklin.cl                                                                  #
+ #                                                                            #
+ #  Script to extract a linearization matrix (the a0 and a2 terms, with a1    #
+ #  normalized to unity) given an input list of images and exposure times.    #
+ #  The derivation for the "delta" parameter, correcting for exposure         #
+ #  overheads incurred due to the lack of a shutter, is assumed correct, but  #
+ #  gives a reasonable fit to the data.  Specifically written for P60 IRCam   #
+ #  data in 2001, adapted and generalized for LUCIFER May 2010.               #
+ #                                                                            #
+ #  David Thompson - LBTO, UofA                           IRAF version 2.14.1 #
+ #                                           written (p60mklinear): 23.JAN.01 #
+ #                                               last modification: 02.MAY.10 #
+ ##############################################################################
+

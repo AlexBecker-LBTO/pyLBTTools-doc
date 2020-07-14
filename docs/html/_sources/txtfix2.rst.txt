@@ -1,0 +1,13 @@
+.. py:function::  txtfix2 (infile, srchfor, replwith)
+
+txtfix2
+=======
+
+.. code-block:: python
+
+ ##############################################################################
+ # txtfix2 will fix a textfile by replacing a searchable string or N lines    #
+ # offset from this.  This is to allow fixing an unspecified OBSERVER in      #
+ # SDT time OBs.                                                              #
+ ##############################################################################
+

@@ -1,0 +1,28 @@
+.. py:function::  offseppa (Src1, SRA1, SDEC1, Src2, SRA2, SDEC2)
+
+offseppa
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/offseppa.cl                                                      #
+ #                                                                            #
+ #  Adapted from IRtools/offseppa to aid in setting up off-axis guide stars   #
+ #  for AGw, IRTC, and TCS testing for Gregorian operations at the LBT.       #
+ #                                                                            #
+ # offseppa   NE  0:04:07.5405 1:29:39.362 RG 0:04:07.0212 1:29:33.714        #
+ # offseppa  "01" 0:04:05.9771 1:30:13.699 RG 0:04:07.0212 1:29:33.714        #
+ # offseppa  "02" 0:04:04.3334 1:29:40.662 RG 0:04:07.0212 1:29:33.714        #
+ # offseppa  "03" 0:04:07.0527 1:28:01.559 RG 0:04:07.0212 1:29:33.714        #
+ #01->RG 15.66"E 39.99"S  PA=158.62 R=42.94"                                  #
+ #02->RG 40.30"E  6.95"S  PA=99.78  R=40.90"                                  #
+ #03->RG  0.47"W 92.16"N  PA=-0.29  R=92.16"                                  #
+ #RG->NE PA=54.046                                                            #
+ #                                                                            #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.13  #
+ #                                                        written: 25.FEB.08  #
+ #                                              last modification: 25.FEB.08  #
+ ##############################################################################
+

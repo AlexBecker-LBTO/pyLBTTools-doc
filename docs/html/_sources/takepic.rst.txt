@@ -1,0 +1,45 @@
+.. py:function::  takepic (exptime)
+
+takepic
+=======
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/Observe/takepic.cl                                               #
+ #                                                                            #
+ #  Takes a single image with the specified camera (LBTtools.camera). Actions #
+ #  differ depending on the camera you are registered as:                     #
+ #                                                                            #
+ #  LUCI:                                                                     #
+ #  To take an exposure with LUCI, the camera UI must be up and the setup     #
+ #  implemented as needed to take a reasonable exposiure.  This task just     #
+ #  starts a pre-made LUCI script through an ssh remote execute call.  The    #
+ #  pre-exchanged ssh keys must already be set up for this to work!           #
+ #                                                                            #
+ #  LBC:                                                                      #
+ #  It is not currently known if it is possible to load an OB from a command  #
+ #  line, but that would be necessary before this task could launch said OB   #
+ #  through an ssh remote execute call.                                       #
+ #                                                                            #
+ #  MODS:                                                                     #
+ #  A command line way to take an image with MODS in the instrument's current #
+ #  configuration has been requested, it should be simple to implement once   #
+ #  the equivalent command is working with LUCI.                              #
+ #                                                                            #
+ #  LBTI:                                                                     #
+ #  It is not planned to remotely execute a "takepic" on LBTI, but it is      #
+ #  conceivable that the Observe package could be used for testing LBTI and   #
+ #  LBTI is a valid instrument to register as, so error-checking is included  #
+ #  here for completeness.                                                    #
+ #                                                                            #
+ #  IRTC:                                                                     #
+ #  The current parameters of the camera are read out and printed to screen   #
+ #  prior to setting the new exposure time and frame rate, and taking the     #
+ #  image.  This works as before.                                             #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 14.OCT.10  #
+ #                                              last modification: 03.NOV.11  #
+ ##############################################################################
+

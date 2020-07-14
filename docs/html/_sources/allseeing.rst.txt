@@ -1,0 +1,19 @@
+.. py:function::  allseeing (camera)
+
+allseeing
+=========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/LBC/allseeing.cl                                                 #
+ #                                                                            #
+ #  One problem with SExtractor, the initial guess must be equal to or larger #
+ #  than the true FWHM.  If you guess low then the SG classifier is not good. #
+ #  It seems to be robust with SG=0.5 and flaky with SG=0.8.                  #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 18.FEB.08  #
+ #                                              last modification: 08.APR.09  #
+ ##############################################################################
+

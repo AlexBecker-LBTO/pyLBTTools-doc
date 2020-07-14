@@ -1,0 +1,32 @@
+.. py:function::  meansky (image, Quadrant)
+
+meansky
+=======
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/meansky.cl                                                       #
+ #                                                                            #
+ #  LBTtools script to extract mean sky counts and sigma per pixel on a       #
+ #  generic image.  This task is intended to be called by other tasks that    #
+ #  scan the results for further use.  It will extract the mean & sigma on    #
+ #  the full image, any one quadrant, or a subset (centered 1/16th) of        #
+ #  quadrant 1, depending on the quadrant specified.                          #
+ #                                                                            #
+ #  Quadrant: 0=quick, 1-4=full quadrant, 5=full image.                       #
+ #  Quadrants:  3 4                                                           #
+ #              1 2                                                           #
+ #  Note: there is a change in function from previous versions.  Because of   #
+ #  the use on MEF files and MAT's use of the .fit suffix, the full image     #
+ #  name including the .fits extension and MEF notation (if any) must be      #
+ #  passed to meansky or it will return -7777.)
+ #                                                                            #
+ #  OUTPUT: <mean_sky> <sigma_sky>                                            #
+ #     Note: -7777. is used as the error flag value!                          #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.13  #
+ #                                Adapted from IRtools/meansky.cl: 04.AUG.06  #
+ #                                              last modification: 26.AUG.06  #
+ ##############################################################################
+

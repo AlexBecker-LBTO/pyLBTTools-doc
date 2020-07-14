@@ -1,0 +1,18 @@
+.. py:function::  sep (Src1, SRA1, SDEC1, Src2, SRA2, SDEC2)
+
+sep
+===
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/sep.cl                                                           #
+ #                                                                            #
+ #  Adapted from IRtools/sep to aid in setting up off-axis guide stars        #
+ #  for AGw, IRTC, and TCS testing for Gregorian operations at the LBT.       #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 07.DEC.08  #
+ #                                              last modification: 07.DEC.08  #
+ ##############################################################################
+

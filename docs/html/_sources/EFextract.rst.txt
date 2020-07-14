@@ -1,0 +1,25 @@
+.. py:function::  EFextract (ex_ts, in_ts, rootnm)
+
+EFextract
+=========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/LBC/EFextract.cl                                                 #
+ #                                                                            #
+ #  Interactively identify appropriate pupil images on LBC intra- and extra-  #
+ #  focal data, extract and scale as appropriate for input to the 'EF' soft-  #
+ #  ware for curvature sensing analysis of image aberrations.                 #
+ #                                                                            #
+ #  Options to do basic processing of bias subtraction, flatfielding, and bad #
+ #  pixel correction.  These operations are specified as follows:             #
+ #     <blank>    = don't process (no bias forces no flatfielding).           #
+ #     default    = use default files in LBCdefaults directory.               #
+ #     <filename> = use local calibration file                                #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.13  #
+ #                                                        written: 12.OCT.06  #
+ #                                              last modification: 12.OCT.06  #
+ ##############################################################################
+

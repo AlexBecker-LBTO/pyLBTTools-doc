@@ -1,0 +1,19 @@
+.. py:function::  radius (x1,y1,x2,y2)
+
+radius
+======
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/radius.cl                                                        #
+ #                                                                            #
+ #  Returns the radial separation given two (x,y) pairs.  This task is        #
+ #  completely generic...it makes no assumptions about the data, and is       #
+ #  a hidden task, producing scannable output for other LBTtools tasks.       #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                             IRAF v2.13.2 #
+ #                                  Adapted from IRtools/radius.cl: 04.AUG.06 #
+ #                                               last modification: 04.AUG.06 #
+ ##############################################################################
+

@@ -1,0 +1,20 @@
+.. py:function::  lp (logmsg)
+
+lp
+==
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/lp.cl                                                            #
+ #                                                                            #
+ #  Prints a string to a log file and (optionally) to the screen.  This task  #
+ #  is identical to the IRtools/ilog.cl task, just given a shorter name and   #
+ #  reloaded here to keep it together with the other LBTtools tasks for ease  #
+ #  of distribution.                                                          #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                               IRAF v2.13 #
+ #                                    Adapted from IRtools/ilog.cl: 08.OCT.07 #
+ #                                               last modification: 26.OCT.07 #
+ ##############################################################################
+

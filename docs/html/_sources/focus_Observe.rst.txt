@@ -1,0 +1,21 @@
+.. py:function::  focus (focus)
+
+focus
+=====
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/Observe/focus.cl                                                 #
+ #                                                                            #
+ #  Sends a StepFocus command with the given focus offset (with a sense of    #
+ #  positive focus offsets move the focal plane towards/away from the         #
+ #  tertiary mirror).  The OPE defaults to 'DEFAULT' to allow the TCS to      #
+ #  decide where best to apply the requested focus offset.  The side is       #
+ #  currently read from the LBTtools parameter set.                           #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 14.OCT.10  #
+ #                                              last modification: 14.OCT.10  #
+ ##############################################################################
+

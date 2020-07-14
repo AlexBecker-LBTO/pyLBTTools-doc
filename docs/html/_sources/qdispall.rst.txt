@@ -1,0 +1,23 @@
+.. py:function::  qdispall
+
+qdispall
+========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  qdispall.cl --  Quick display of LBT Red and Blue images.                 #
+ #                                                                            #
+ #  Automatically retrieves the latest BLUE and RED images from archive,      #
+ #  displaying them with MSCDISPLAY using a decent default stretch.           #
+ #  The only current option is to enter MSCEXAMINE to interact with the       #
+ #  displayed image.                                                          #
+ #                                                                            #
+ #                                                                            #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                        IRAF version 2.13 #
+ #  Marco Pedani (adapted from original qdisp)             written: 08.SEP.08 #
+ #                                               last modification: 18.SEP.08 #
+ ##############################################################################
+ #int    timestamp {          prompt="Timestamp of image to be displayed"}
+

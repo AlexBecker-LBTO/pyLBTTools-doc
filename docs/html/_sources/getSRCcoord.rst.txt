@@ -1,0 +1,23 @@
+.. py:function::  getSRCcoord (image)
+
+getSRCcoord
+===========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/getSRCcoord.cl                                                   #
+ #                                                                            #
+ #  Displays an image, interacts with it, and returns the XY coordinates you  #
+ #  clicked on back to the calling process.  This task is normally hidden and #
+ #  only called from other LBTtools tasks.  The full path for the image name  #
+ #  must be provided.  For a "local" copy in the working directory, only the  #
+ #  image name is needed.                                                     #
+ #                                                                            #
+ #  The calling script needs to verify that the input image exists!           #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 22.FEB.11  #
+ #                                              last modification: 22.FEB.11  #
+ ##############################################################################
+

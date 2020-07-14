@@ -1,0 +1,24 @@
+.. py:function::  sfoclist(date,prefix,outfile,nimgs,im,fil)
+
+foclist
+=======
+
+.. code-block:: python
+
+ ##############################################################################
+ # Looks in LBTreduce.archive for the last <nimgs> images taken               #
+ # at a given filter. Makes a list of these, appending the extension im, for  #
+ # input to nmisc.starfocus.                                                  #
+ #                                                                            #
+ # 2 Sept 2005:                                                               #
+ # the call to starfocus is commented out, since the output list              #
+ # file requires some verification - the most common problem would be that    #
+ # the list is created before the last image has been transferred.            #
+ # Instead the starfocus call is printed and the user can cut/paste this line #
+ # to run it.                                                                 #
+ #                                                                            #
+ # 16 Mar 2007                                                                #
+ # 09 Jun 2007                                                                #
+ # 30 Dec 2007 Added rest of Red filters                                      #
+ # 25 Feb 2008 Use LBTreduce.archive param instead of forcing /Repository     #
+ ##############################################################################

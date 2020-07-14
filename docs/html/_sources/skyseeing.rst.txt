@@ -1,0 +1,22 @@
+.. py:function::  skyseeing (camera)
+
+skyseeing
+=========
+.. code-block:: python
+
+ ##############################################################################
+ #                                                                            #
+ #  LBTtools/LBC/skyseeing.cl                                                 #
+ #                                                                            #
+ #  One problem with SExtractor, the initial guess must be equal to or larger #
+ #  than the true FWHM.  If you guess low then the SG classifier is not good. #
+ #  It seems to be robust with SG=0.5 and flaky with SG=0.8.                  #
+ #                                                                            #
+ #  David Thompson - LBT Observatory                              IRAF v2.14  #
+ #                                                        written: 18.FEB.08  #
+ #                                              last modification: 08.APR.09  #
+ #                                                                            #
+ #  modified to output background count rate using background output by       # 
+ #  SExtractor and the median counts output by source extractor OPK 6.NOV.11  #
+ ##############################################################################
+
